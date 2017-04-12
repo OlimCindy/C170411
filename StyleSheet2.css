@@ -1,0 +1,132 @@
+﻿*{text-align:center; margin:0; padding:0; font-size:5px;}
+a{text-decoration:none;}
+body
+{background: rgba(216,242,252,1);
+background: -moz-linear-gradient(top, rgba(216,242,252,1) 0%, rgba(237,245,247,1) 45%, rgba(237,245,247,1) 72%, rgba(237,245,247,1) 81%, rgba(237,245,247,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(216,242,252,1)), color-stop(45%, rgba(237,245,247,1)), color-stop(72%, rgba(237,245,247,1)), color-stop(81%, rgba(237,245,247,1)), color-stop(100%, rgba(237,245,247,1)));
+background: -webkit-linear-gradient(top, rgba(216,242,252,1) 0%, rgba(237,245,247,1) 45%, rgba(237,245,247,1) 72%, rgba(237,245,247,1) 81%, rgba(237,245,247,1) 100%);
+background: -o-linear-gradient(top, rgba(216,242,252,1) 0%, rgba(237,245,247,1) 45%, rgba(237,245,247,1) 72%, rgba(237,245,247,1) 81%, rgba(237,245,247,1) 100%);
+background: -ms-linear-gradient(top, rgba(216,242,252,1) 0%, rgba(237,245,247,1) 45%, rgba(237,245,247,1) 72%, rgba(237,245,247,1) 81%, rgba(237,245,247,1) 100%);
+background: linear-gradient(to bottom, rgba(216,242,252,1) 0%, rgba(237,245,247,1) 45%, rgba(237,245,247,1) 72%, rgba(237,245,247,1) 81%, rgba(237,245,247,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8f2fc', endColorstr='#edf5f7', GradientType=0 ); background-size:1000% 1000%; overflow-x:hidden;}
+
+.allall_b{max-width:1280px; height:100%; margin:0 auto; width:70%; padding:0 5rem;}
+.allall_s:nth-child(1){height:auto; padding-left:15rem; float:left; margin:0 auto;}
+.allall_s:nth-child(2){height:auto; padding-left:0rem; padding-right:15rem; float:right; margin:0 auto;}
+
+
+/*간판*/
+.sign_b{width:32rem; height:7rem; margin:0 auto; margin-bottom:4rem; position:relative; top:0; left:0; background:#fcfcfc;}
+.sign_b_light{border-top: 7rem solid #333;  border-right: 9rem solid transparent; height: 0; width: 18rem; float:left; position:absolute; bottom:2rem; left:-1rem;}
+.sign_b .sign_b_light:nth-child(2){border-top: 0; border-right:0; border-bottom: 7rem solid #333;  border-left: 9rem solid transparent; height: 0; left:18rem; width: 6rem;}
+
+.sign_br{width:32rem; height:7rem; margin:0 auto; margin-bottom:4rem; position:relative; top:0; left:0; background:#fff;}
+.sign_br_top{width:8rem; height:8rem; position:absolute; top:-4rem; right:1rem; border:2px solid #c83200; border-left:none; border-bottom:none; z-index:-1; box-sizing:border-box; opacity:0.9;}
+.sign_br_bot{width:8rem; height:1.5rem; position:absolute; bottom:-1.5rem; right:1rem; border:2px solid #c83200; border-top:none; box-sizing:border-box; opacity:0.9;}
+
+.sign_br02{width:32rem; height:7rem; margin:0 auto; margin-bottom:4rem; position:relative; top:0; left:0; background:#333;}
+.sign_br02_tra{width: 0; height: 0;	border-left: 15px solid transparent; border-right: 15px solid transparent;	border-bottom: 15px solid #c83200; margin:0 auto; position:absolute; bottom:0; left:50%;
+margin-left:-7.5px; opacity:0.9;}
+
+.sign_b03{width:32rem; height:7rem; margin:0 auto; margin-bottom:4rem; position:relative; top:0; left:0; border-top:1px solid #c83200; border-bottom:1px solid #c83200; box-sizing:border-box;
+background:#fff;}
+.sign_b03s{width:32rem; height:6rem; margin:0 auto; position:absolute; top:0.5rem; left:0; border-top:1px dashed #333; border-bottom:1px dashed #333; box-sizing:border-box; opacity:0.5;}
+
+.apt_head {border-top: 4rem solid #4d4d4d; border-left: 3rem solid transparent; border-right: 3rem solid transparent; height: 0; width: 32rem; margin:0 auto; position:relative; top:0; left:0;}
+.apt_headline{width:32rem; border-left:3rem solid #4d4d4d; border-right:3rem solid #4d4d4d; height:7rem; margin-left:3rem; box-sizing:border-box; position:relative; top:0; left:0;}
+.apt_headlines{width:70%; border-left:2.8rem solid #4d4d4d; border-right:2.8rem solid #4d4d4d; height:7rem; box-sizing:border-box; margin:0 auto; opacity:0.}
+.apt_headlinenk{width:38rem; height:3rem; background-color:rgba(51,51,51,0.5); position:relative; bottom:3rem;}
+
+.all_wrp{width:38rem;}
+.i_wrp{height:auto; margin:0 auto; width:100%; background-color:#3d3d3d; position:relative; top:-3rem;}
+.i_top, .i_bot{width:100%; height:auto;}
+.i_top .floor{padding:4% 1.5% 1% 1.5%; width:20.5rem; height:6.5rem; margin:0 auto; position:relative; top:0; left:0;}
+.i_top .i_numwrp:last-child{margin-bottom:2rem;}
+
+.i_bot .floor{padding:4% 1.5% 0.5% 1.5%; width:27rem; height:6.5rem; margin:0 auto; position:relative; top:0; left:0}
+
+.floor .win_text{background-color:#fff; width:5.2rem; height:6rem; float:left; margin-right:2rem; border:3px solid #a6a6a6; 
+                      box-sizing:border-box; position:relative; top:0; left:0; padding-top:1rem; transition:0.2s;}
+.floor .win_text:last-child{margin-right:0;}
+
+.window{font-size:4rem; color:#808080;}
+.firstfloor{height:2.5rem;}
+.floor_ttop .win_text{background-color:#8c8c8c; background-image:url(bg02.png); background-repeat:no-repeat; background-opacity:0.5; 
+                                background-size:cover;}
+.floor_ttop .win_text .window{color:#fff;}
+.floor_ttop .win_text:hover{background-image:none; opacity:1; background-color:#c83200;}
+
+.win_text:hover{background-color:#c83200; transition:0.2s;}
+.win_text:hover .window{color:#fff;}
+
+
+ /* 가운데 연결부분 */
+.i_mid{width:38rem; height:130px; margin:0 auto; position:relative; top:-5rem; left:0;}
+.mid_tobo{width:100%; height:3rem; background-color:#808080;}
+.mid_tobo:last-child{position:relative; bottom:2rem;}
+.mid_tr{width:6rem; height:6rem; background-color:#333333; -webkit-clip-path: polygon(0 0, 100% 40%, 100% 0); 
+           clip-path: polygon(0 0, 100% 40%, 100% 0); position:absolute; top:3rem; left:0;}
+.mid_tr_rg{width:6rem; height:6rem; background-color:#333333; -webkit-clip-path: polygon(0 0, 0 40%, 100% 0);
+              clip-path: polygon(0 0, 0 40%, 100% 0); position:absolute; top:3rem; right:0;}
+.mid_sqb{width:75%; height:6rem; background-color:#333333; margin:0 auto; position:relative; top:0; left:0;
+           border-left:2.5rem solid #666666; border-right:2.5rem solid #666666; box-sizing:border-box;}
+.mid_nk{width:100%; height:2rem; background-color:rgba(77, 77, 77, 0.5); position:relative; bottom:2rem;}
+
+ /*하단*/
+ .i_wrp .i_bot{position:relative; top:-6.3rem; left:0; background-color:#3d3d3d;}
+
+ /*층수*/
+ .i_numwrp{width:100%; height:9rem; position:relative; top:0; left:0;}
+ .i_bot .i_num{top:20%;}
+ .floor_ttop .i_num{margin-top:17%}
+ .i_num{width:12.5rem; height:4rem; padding-top:1.25rem; position:absolute; left:-36.5%; top:20%;  background-color:#fff;}
+ .i_numright{width:1.3rem; height:4rem; padding-top:1.25rem; position:absolute; left:100%; top:0; background-color:#e9e9e9;  transition:0.3s;}
+ .i_numleft{width:1.3rem; height:4rem; padding-top:1.25rem; position:absolute; left:100%; top:2.5%; background-color:#c83200;  transition:0.3s; opacity:0;}
+ .num_text{font-size:3.5rem; color:#808080; text-align:center;}
+ .allall_b .allall_s:nth-child(2) .i_num{left:100%; padding-left:1.3rem;}
+ .allall_b .allall_s:nth-child(2) .i_num .i_numright{left:0;}
+ .allall_b .allall_s:nth-child(2) .i_numwrp .i_numleft{left:0;}
+
+ .i_numwrp:hover
+{background-color:#d6d3d6; transition:0.3s;
+-webkit-box-shadow: inset 10px 10px 39px 0px rgba(191,187,191,1);
+-moz-box-shadow: inset 10px 10px 39px 0px rgba(191,187,191,1);
+box-shadow: inset 10px 10px 39px 0px rgba(191,187,191,1);}
+
+.i_numwrp:hover .i_num span{color:#333;}
+.i_numwrp:hover .i_numright{background-color:#fff;}
+.i_numwrp:hover .i_numleft{background-color:#c83200; opacity:1;  left:-1.3rem;}
+.allall_b .allall_s:nth-child(2) .i_numwrp:hover .i_numleft{left:100%;}
+
+
+ /*바닥*/
+.apt_door{border-left:10rem solid #1a1a1a; width:90%; height:110px; margin:0 auto;
+                box-sizing:border-box; background-color:#404040; position:relative; top:-3rem; left:-0.6rem;}
+.apt_leri{border-left:2rem solid #cccccc; border-right:2rem solid #cccccc; position:absolute; top:0; left:-25%; width:130%; height:100%;
+             box-sizing:border-box;}
+.apt_line{border-right:0.5rem solid #333333; box-sizing:border-box; float:left; width:6%; height:106%; opacity:0.9;}
+.apt_lineall{width:auto; height:60%; margin:0 auto;}
+.apt_nk{width:146%; position:absolute; top:63.5%; left:-41%; background-color:rgba(51,51,51,0.5); height:40px;}
+
+
+
+
+
+  
+
+ @media screen and (max-width: 1240px) and (min-width: 1px) {
+ .allall_b{width:45%; height:auto; margin:0 auto;}
+ .allall_s{float:none; width:100%;}
+ .allall_s:nth-child(2){padding-left:15rem; margin:0 auto; margin-top:20rem; float:left;}
+
+ .allall_b .allall_s:last-child .i_num{left:-36.5%; padding-left:0;}
+ .allall_b .allall_s:nth-child(2) .i_num .i_numright{left:100%;}
+ .allall_b .allall_s:nth-child(2) .i_numwrp .i_numleft{left:100%;}
+ .allall_b .allall_s:nth-child(2) .i_numwrp:hover .i_numleft{left:-1.3rem;}
+
+ .apt_head{width:80%;}
+ .apt_headline{width:80%; margin-left:10%}
+ .apt_headlinenk{width:100%;}
+
+ .i_mid{width:38rem;}
+ }
